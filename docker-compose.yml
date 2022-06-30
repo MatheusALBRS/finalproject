@@ -1,0 +1,17 @@
+version: "3"
+services:
+  node:
+    restart: always
+    image: 451457868102.dkr.ecr.us-east-1.amazonaws.com/badbank
+    ports:
+      - 8080:3000
+    volumes:
+      - ./:/code
+  mongo:
+    image: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb:/data/db
+volumes:
+  mongodb:

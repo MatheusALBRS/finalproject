@@ -1,0 +1,12 @@
+3ehn2AP6pI9C+vfbWynp4C0owW3TArPDSs+ZA+qH
+
+AKIAWSHH4MFDNB2QPMG6
+
+us-east-1
+
+export AWS_ACCESS_KEY_ID=AKIAWSHH4MFDNB2QPMG6
+export AWS_SECRET_ACCESS_KEY=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
+export AWS_DEFAULT_REGION=us-east-1
+
+
+451457868102.dkr.ecr.us-east-1.amazonaws.com/badbank
